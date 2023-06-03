@@ -1,0 +1,399 @@
+@media (max-width: 82em) {
+  .scrollToTop {
+    display: none;
+  }
+}
+
+@media (max-width: 80em) {
+  .section-tours__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 68.75em) {
+  .testimonials-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25em 25em;
+    gap: 4em;
+    column-gap: 4em;
+    margin-left: 0;
+  }
+
+  .testimonials-header {
+    display: block;
+    text-align: center;
+  }
+
+  .testimonials-heading {
+    text-align: center;
+  }
+
+  .section-aboutUs__imgBox-big {
+    width: 70%;
+  }
+
+  .section-aboutUs__imgBox-small {
+    width: 60%;
+  }
+}
+
+@media (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+  .section-hero__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-hero__image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 59em) {
+  .section-hero__image {
+    width: 80%;
+  }
+
+  .section-hero {
+    padding-top: 8rem;
+  }
+  .section-aboutUs__textBox-header {
+    font-size: 2.2em;
+  }
+
+  .section-aboutUs__textbox-paragraph {
+    font-size: 2.2rem;
+  }
+
+  .numbers {
+    font-size: 4rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+  }
+
+  .section-aboutUs__textbox-numbers {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem;
+  }
+
+  .section-aboutUs__heading {
+    font-size: 4rem;
+  }
+
+  /* Mobile Navigation */
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .hidden {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+}
+
+@media (max-width: 57.5em) {
+  .section-hero__heading {
+    font-size: 4.4em;
+  }
+  .section-hero__textbox-paragraph {
+    font-size: 2em;
+  }
+
+  .slider {
+    width: 100%;
+    max-width: 60rem;
+    height: 37rem;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 6rem;
+  }
+
+  .Newsletter {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+  }
+  .footer_logobox {
+    grid-row: 2;
+    grid-column: 4 / span 2;
+  }
+
+  .footer__about {
+    grid-column: 1 / span 2;
+  }
+  .footer__company {
+    grid-column: 3 / span 2;
+  }
+  .footer__support {
+    grid-column: 5 / span 2;
+  }
+}
+
+@media (max-width: 55em) {
+  .section-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+    margin-top: 0rem;
+  }
+  .section-hero__heading {
+    text-align: center;
+  }
+  .section-hero__textbox-paragraph {
+    text-align: center;
+  }
+}
+
+@media (max-width: 53em) {
+  .section-aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .section-aboutUs__imgBox {
+    order: 2;
+  }
+  .section-aboutUs__textBox {
+    width: 70%;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .section-aboutUs__textBox-header {
+    text-align: center;
+  }
+
+  .section-aboutUs__heading {
+    text-align: center;
+  }
+
+  .section-aboutUs__textbox-paragraph {
+    text-align: center;
+  }
+  .section-aboutUs__textbox-numbers {
+    text-align: center;
+  }
+  .section-tourPackages__header {
+    text-align: center;
+    display: block;
+  }
+  .section-tourPackages__heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 42.5em) {
+  .section-tourPackages__header {
+    font-size: 2.4em;
+  }
+  .section-tourPackages__heading {
+    font-size: 4em;
+  }
+  .slider {
+    max-width: 30rem;
+  }
+
+  .testimonials-heading {
+    font-size: 4em;
+  }
+  .section-tours__heading {
+    font-size: 4em;
+  }
+  .section-tours__paragraph {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .numbers {
+    font-size: 3.6em;
+  }
+  .text {
+    font-size: 1.6em;
+  }
+  .section-aboutUs__textbox-numbers {
+    row-gap: 0;
+  }
+  .section-aboutUs__textBox {
+    width: 80%;
+  }
+}
+
+@media (max-width: 34.4em) {
+  .testimonials-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+  }
+  .section-tours__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 6rem;
+  }
+
+  .Newsletter {
+    width: 18em;
+    grid-row: 2;
+    grid-column: 2/3;
+    justify-self: center;
+  }
+  .footer_logobox {
+    grid-row: 3;
+    grid-column: 1/-1;
+  }
+
+  .footer__about {
+    grid-column: 1;
+  }
+  .footer__company {
+    grid-column: 2;
+  }
+  .footer__support {
+    grid-row: 2;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .section-hero__image {
+    width: 80%;
+  }
+  .section-aboutUs__textBox {
+    width: 100%;
+  }
+
+  .section-tours__heading {
+    font-size: 3.6em;
+  }
+  .section-tours__paragraph {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 29.375em) {
+  .section-tours__heading {
+    font-size: 3em;
+  }
+  .testimonials-heading {
+    font-size: 3.6em;
+  }
+
+  .section-tourPackages__heading {
+    font-size: 3.6em;
+  }
+}
+
+@media (max-width: 26.25em) {
+  .section-tours__heading {
+    font-size: 2.4em;
+    line-height: 25px;
+  }
+  .testimonials-heading {
+    font-size: 2.4em;
+    line-height: 25px;
+  }
+  .section-tourPackages__heading {
+    line-height: 40px;
+  }
+  .section-hero__textbox-icon-box {
+    padding: 3.2rem 0;
+  }
+
+  .footer__list-item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 26.25em) {
+  .btn-prev {
+    left: 0;
+  }
+
+  .btn-next {
+    right: 0;
+  }
+}

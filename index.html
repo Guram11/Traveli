@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Istok+Web:wght@400;700&family=Poppins:wght@300&family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/section-hero.css" />
+    <link rel="stylesheet" href="./css/section-aboutUs.css" />
+    <link rel="stylesheet" href="./css/testimonials.css" />
+    <link rel="stylesheet" href="./css/section-tours.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/section-tourPackages.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#aboutUs">Travelli</a>
+            </li>
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#aboutUs">About</a>
+            </li>
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#tourPackages">Service</a>
+            </li>
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#sectionTours">Price</a>
+            </li>
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#testimonials">Contact</a>
+            </li>
+            <li class="navigation__item">
+              <a class="main-nav-link" href="#sectionTours">Login</a>
+            </li>
+            <button class="btn">Sign Up</button>
+          </ul>
+        </nav>
+      </div>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="footer_logobox-header hidden">Traveli</a>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="section-hero">
+          <div class="section-hero__textbox">
+            <h1 class="section-hero__heading heading-secondary">
+              Live the life you've <br />
+              always wanted to live.
+            </h1>
+            <p class="section-hero__textbox-paragraph">
+              LIFE IS SHORT AND THE WORLD IS HUGE, SO <br />
+              GET STARTED NOW!
+            </p>
+            <div class="section-hero__textbox-icon-box">
+              <ion-icon
+                class="section-hero__textbox-icon"
+                name="calendar-outline"
+              ></ion-icon>
+              <div class="section-hero__textbox-icons__date">
+                Date <br />
+                25-8-22
+              </div>
+              <ion-icon
+                class="section-hero__textbox-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+              <div class="vertical-bar"></div>
+              <ion-icon
+                class="section-hero__textbox-icon"
+                name="location-outline"
+              ></ion-icon>
+              <div class="section-hero__textbox-icons__location">
+                Location <br />
+                Mumbai, India
+              </div>
+              <ion-icon
+                class="section-hero__textbox-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+              <ion-icon
+                class="section-hero__textbox-icon"
+                name="search-outline"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="section-hero__image-box">
+            <img
+              class="section-hero__image"
+              src="./images/Rectangle 3.png"
+              alt="photo"
+            />
+          </div>
+        </section>
+      </div>
+
+      <div class="container" id="aboutUs">
+        <section class="section-aboutUs">
+          <div class="section-aboutUs__imgBox">
+            <img
+              class="section-aboutUs__imgBox-big"
+              src="./images/Rectangle 5.png"
+              alt="photo"
+            />
+            <img
+              class="section-aboutUs__imgBox-small"
+              src="./images/Rectangle 6.png"
+              alt="photo"
+            />
+          </div>
+          <div class="section-aboutUs__textBox">
+            <span class="section-aboutUs__textBox-header">About Us</span>
+            <h2 class="section-aboutUs__heading heading-secondary">
+              Our itinerary aims to fulfil your every wish.
+            </h2>
+            <p class="section-aboutUs__textbox-paragraph">
+              To embrace that anything worth having involves self-belief,
+              vision, hard work, commitment, and dedication
+            </p>
+            <div class="section-aboutUs__textbox-numbers">
+              <span class="numbers">20</span>
+              <span class="numbers">5k</span>
+              <span class="numbers">10k</span>
+              <span class="numbers">4.3</span>
+              <span class="text">Years of Experience</span>
+              <span class="text">Successfull trips</span>
+              <span class="text">Happy Customers</span>
+              <span class="text">Overall Ratings</span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container" id="tourPackages">
+        <section class="section-tourPackages">
+          <span class="section-tourPackages__header">Tour Packages</span>
+          <h2 class="section-tourPackages__heading heading-secondary">
+            Amazing Places in <br />the world.
+          </h2>
+          <div class="slider">
+            <div class="wrapper">
+              <div class="slide">
+                <img
+                  class="slider__image"
+                  src="./images/tours/Rectangle 1 (1).png"
+                  alt="sea side photo"
+                />
+                <h3 class="slider__heading heading-tertiary">Hills</h3>
+                <span class="slider__span2">$600</span>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="slide">
+                <img
+                  class="slider__image"
+                  src="./images/tours/Rectangle 1 (2).png"
+                  alt="sea side photo"
+                />
+                <h3 class="slider__heading heading-tertiary">Beach</h3>
+                <span class="slider__span3">$540</span>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="slide">
+                <img
+                  class="slider__image"
+                  src="./images/tours/Rectangle 1.png"
+                  alt="sea side photo"
+                />
+                <h3 class="slider__heading heading-tertiary">Sea Side</h3>
+                <span class="slider__span1">$500</span>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="slide">
+                <img
+                  class="slider__image"
+                  src="./images/tours/Rectangle 1 (1).png"
+                  alt="sea side photo"
+                />
+                <h3 class="slider__heading heading-tertiary">Hills</h3>
+                <span class="slider__span2">$600</span>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="slide">
+                <img
+                  class="slider__image"
+                  src="./images/tours/Rectangle 1 (2).png"
+                  alt="sea side photo"
+                />
+                <h3 class="slider__heading heading-tertiary">Beach</h3>
+                <span class="slider__span3">$540</span>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="slide">
+                <img
+                  class="slider__image"
+                  src="./images/tours/Rectangle 1.png"
+                  alt="sea side photo"
+                />
+                <h3 class="slider__heading heading-tertiary">Sea Side</h3>
+                <span class="slider__span1">$500</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-slider btn-next">
+            <ion-icon
+              class="btn-prev-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </button>
+          <button class="btn-slider btn-prev">
+            <ion-icon
+              class="btn-next-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </button>
+        </section>
+      </div>
+
+      <div class="container" id="testimonials">
+        <section class="testimonials">
+          <span class="testimonials-header">Testimonials</span>
+          <h2 class="testimonials-heading heading-secondary">
+            Dare to live the life you've <br />
+            always wanted.
+          </h2>
+          <div class="testimonials-cards">
+            <div class="testimonials-cards__card1">
+              <img
+                class="testimonials-cards__card1-background"
+                src="./images/testimonials/Rectangle 5.png"
+                alt="user1"
+              />
+              <img
+                class="testimonials-cards__card1-main"
+                src="./images/testimonials/Ellipse 2.png"
+                alt="user1"
+              />
+              <span class="testimonials-cards__card1-username">Wright</span>
+              <p class="testimonials-cards__card1-paragraph">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="testimonials-cards__card1-iconbox">
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+              </div>
+            </div>
+
+            <div class="testimonials-cards__card1">
+              <img
+                class="testimonials-cards__card1-background"
+                src="./images/testimonials/Rectangle 5 (1).png"
+                alt="user1"
+              />
+              <img
+                class="testimonials-cards__card1-main"
+                src="./images/testimonials/Ellipse 2 (1).png"
+                alt="user1"
+              />
+              <span class="testimonials-cards__card1-username">Dam</span>
+              <p class="testimonials-cards__card1-paragraph">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="testimonials-cards__card1-iconbox">
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+              </div>
+            </div>
+
+            <div class="testimonials-cards__card1">
+              <img
+                class="testimonials-cards__card1-background"
+                src="./images/testimonials/Rectangle 5 (2).png"
+                alt="user1"
+              />
+              <img
+                class="testimonials-cards__card1-main"
+                src="./images/testimonials/Ellipse 2 (2).png"
+                alt="user1"
+              />
+              <span class="testimonials-cards__card1-username">Haitham</span>
+              <p class="testimonials-cards__card1-paragraph">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="testimonials-cards__card1-iconbox">
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+              </div>
+            </div>
+
+            <div class="testimonials-cards__card1">
+              <img
+                class="testimonials-cards__card1-background"
+                src="./images/testimonials/Rectangle 5 (3).png"
+                alt="user1"
+              />
+              <img
+                class="testimonials-cards__card1-main"
+                src="./images/testimonials/Ellipse 2 (3).png"
+                alt="user1"
+              />
+              <span class="testimonials-cards__card1-username">Ricon</span>
+              <p class="testimonials-cards__card1-paragraph">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="testimonials-cards__card1-iconbox">
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+                <ion-icon
+                  class="testimonials-cards__card1-icon"
+                  name="star"
+                ></ion-icon>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="section-tours" id="sectionTours">
+        <h2 class="section-tours__heading heading-secondary">
+          If we persist long enough, <br />
+          we can achieve anything.
+        </h2>
+        <p class="section-tours__paragraph">
+          Make the best of what you have where you are.
+        </p>
+        <button class="btn section-tours__btn">See All Tours</button>
+        <div class="section-tours__cards">
+          <div id="card1" class="section-tours__cards-card1 card1">
+            <img
+              class="section-tours__cards-card1__image"
+              src="./images/tours/Rectangle 1.png"
+              alt="sea side photo"
+            />
+            <h3 class="section-tours__cards-card1__heading heading-tertiary">
+              Sea Side
+            </h3>
+            <span class="card1-span">$500</span>
+          </div>
+
+          <div class="section-tours__cards-card1">
+            <img
+              class="section-tours__cards-card1__image"
+              src="./images/tours/Rectangle 1 (1).png"
+              alt="sea side photo"
+            />
+            <h3 class="section-tours__cards-card1__heading heading-tertiary">
+              Hills
+            </h3>
+            <span class="card2-span">$600</span>
+          </div>
+
+          <div class="section-tours__cards-card1">
+            <img
+              class="section-tours__cards-card1__image"
+              src="./images/tours/Rectangle 1 (2).png"
+              alt="sea side photo"
+            />
+            <h3 class="section-tours__cards-card1__heading heading-tertiary">
+              Beach
+            </h3>
+            <span class="card3-span">$540</span>
+          </div>
+
+          <div id="card4" class="section-tours__cards-card1 card4">
+            <img
+              class="section-tours__cards-card1__image"
+              src="./images/tours/Rectangle 1 (3).png"
+              alt="sea side photo"
+            />
+            <h3 class="section-tours__cards-card1__heading heading-tertiary">
+              Palace
+            </h3>
+            <span class="card4-span">$450</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer__about">
+              <h4 class="span-header">About</h4>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Plans</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">News</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Features</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__company">
+              <h4 class="span-header">Company</h4>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Traveli</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Partners</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">FAQs</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__support">
+              <h4 class="span-header">Support</h4>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Support</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Feedback</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Contact Us</a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer-link" href="#">Accounts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="Newsletter">
+              <h4 class="span-header">Newsletter</h4>
+              <a href="#" class="Newsletter-paragraph">
+                Subscribe to newsletter to <br />
+                get more exiting offers.
+              </a>
+            </div>
+
+            <div class="footer_logobox">
+              <a href="#" class="footer_logobox-header">Traveli</a>
+              <div class="footer__logos">
+                <a href="https://www.youtube.com/"
+                  ><ion-icon class="youtube-logo" name="logo-youtube"
+                    >YouTube</ion-icon
+                  ></a
+                >
+
+                <a href="https://www.facebook.com/">
+                  <ion-icon
+                    class="facebook-logo"
+                    name="logo-facebook"
+                  ></ion-icon>
+                </a>
+
+                <a href="https://www.twitter.com/">
+                  <ion-icon class="twitter-logo" name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="scrollToTop">
+        <a href="#">
+          <ion-icon class="scrollToTopIcon" name="chevron-up-outline" />
+        </a>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

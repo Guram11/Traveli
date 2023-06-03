@@ -1,0 +1,134 @@
+.section-tourPackages {
+  position: relative;
+  padding: 15rem 0 7rem 0;
+}
+
+.section-tourPackages__header {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 6rem;
+  color: #0a7777;
+}
+
+.slider__heading {
+  margin-top: 1.6rem;
+}
+
+.section-tourPackages h2 {
+  margin-bottom: 5rem;
+}
+
+.slider span {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #0a7777;
+}
+
+.slider__span1::after,
+.slider__span2::after,
+.slider__span3::after,
+.slider__span4::after {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  position: absolute;
+  color: #a8a8a8;
+  right: 8%;
+  bottom: 7%;
+}
+
+.slider__span1::after {
+  content: "10 DAYS TOUR";
+}
+
+.slider__span2::after {
+  content: "12 DAYS TOUR";
+}
+
+.slider__span3::after {
+  content: "7 DAYS TOUR";
+}
+
+.slider__span4::after {
+  content: "3 DAYS TOUR";
+}
+
+.slide-wrapper {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.slider {
+  width: 100%;
+  max-width: 92rem;
+  height: 37rem;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 0.3rem;
+  background-color: white;
+  position: absolute;
+  transition: all 0.7s;
+}
+
+.slide {
+  width: 27rem;
+  background: rgba(217, 217, 217, 0.47);
+  padding: 1.6rem;
+  border-radius: 13px;
+  position: relative;
+  margin: 2rem;
+  z-index: 10;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-slider {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 65%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 65%;
+  right: 2%;
+}
+
+.btn-next-icon,
+.btn-prev-icon {
+  font-size: 4rem;
+  color: #0a7777;
+}

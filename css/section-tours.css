@@ -1,0 +1,109 @@
+.section-tours {
+  padding: 10rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-tours__heading {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.section-tours__paragraph {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 35px;
+  margin-bottom: 4.8rem;
+  text-align: center;
+
+  color: #000000;
+}
+
+.section-tours__cards {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.section-tours__cards-card1 {
+  width: 27rem;
+  background: rgba(217, 217, 217, 0.47);
+  padding: 1.6rem;
+  border-radius: 13px;
+  position: relative;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+}
+
+.section-tours__cards-card1:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+.section-tours__cards-card1 span {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #0a7777;
+}
+
+.card1-span::after,
+.card2-span::after,
+.card3-span::after,
+.card4-span::after {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  position: absolute;
+  color: #a8a8a8;
+  right: 8%;
+  bottom: 7%;
+}
+
+.card1-span::after {
+  content: "10 DAYS TOUR";
+}
+
+.card2-span::after {
+  content: "12 DAYS TOUR";
+}
+
+.card3-span::after {
+  content: "7 DAYS TOUR";
+}
+
+.card4-span::after {
+  content: "3 DAYS TOUR";
+}
+
+.section-tours__cards-card1__image {
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 2.4rem;
+}
+
+.section-tours__btn {
+  margin-bottom: 6rem;
+}
+
+.card1 {
+  position: absolute;
+  top: -31%;
+  left: -55%;
+}
+.card4 {
+  position: absolute;
+  top: -31%;
+  right: -55%;
+}

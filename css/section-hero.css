@@ -1,0 +1,57 @@
+.section-hero {
+  margin: 6.9rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-hero__textbox {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  /* justify-content: space-around; */
+}
+
+.section-hero__textbox-paragraph {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  margin-top: 4.8rem;
+}
+
+.section-hero__image {
+  width: 100%;
+  height: auto;
+}
+
+.section-hero__textbox-icon-box {
+  border-radius: 63px;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem;
+  align-items: center;
+}
+
+.section-hero__textbox-icon {
+  color: #0a7777;
+  font-size: 2.4rem;
+}
+
+.section-hero__textbox-icons__date,
+.section-hero__textbox-icons__location {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.vertical-bar {
+  height: 3.5rem;
+  width: 3px;
+  background-color: #a8a8a8;
+}

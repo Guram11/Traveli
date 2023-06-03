@@ -1,0 +1,108 @@
+.footer {
+  padding: 12rem 0 6rem 0;
+  border-top: 1px solid rgba(168, 168, 168, 0.25);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.span-header {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 5rem;
+  color: #000000;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__list-item {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-bottom: 3rem;
+}
+
+.footer-link,
+.Newsletter-paragraph {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-link:hover,
+.Newsletter-paragraph:hover {
+  color: #0a7777;
+  font-weight: 600;
+}
+
+.footer__list-item a,
+.Newsletter-paragraph {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.footer__textbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__about,
+.footer__company,
+.footer__support,
+.Newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_logobox-header {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 53px;
+  margin-bottom: 4rem;
+  color: #0a7777;
+  text-decoration: none;
+}
+
+.footer_logobox {
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube-logo {
+  font-size: 3.6rem;
+  color: red;
+}
+
+.facebook-logo {
+  font-size: 3.6rem;
+  color: rgb(26, 26, 184);
+}
+
+.twitter-logo {
+  font-size: 3.6rem;
+  color: #1da1f2;
+}
+
+.footer__logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}

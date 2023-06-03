@@ -1,0 +1,71 @@
+.section-aboutUs {
+  padding: 5rem 0 10rem 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-aboutUs__imgBox {
+  position: relative;
+}
+
+.section-aboutUs__imgBox-big {
+  width: auto;
+}
+
+.section-aboutUs__imgBox-small {
+  width: auto;
+  position: absolute;
+  top: 44%;
+  left: 35%;
+}
+
+.section-aboutUs__textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-aboutUs__textBox-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0a7777;
+}
+
+.section-aboutUs__textbox-paragraph {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+}
+
+.section-aboutUs__textbox-numbers {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3.2rem;
+  column-gap: 4rem;
+}
+
+.numbers {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 61px;
+  color: #0a7777;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 24px;
+
+  color: #000000;
+}
